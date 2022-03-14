@@ -11,8 +11,8 @@ Organize deployment tree and store it locally so the business people can visuali
 "UninstallArtifact1,UninstallArtifact3)InstallArtifact4)InstallArtifact2))"]
 ```
 
-![App2](tree1.jpg)
-![App3](tree2.jpg)
+![App2](tree1.JPG)
+![App3](tree2.JPG)
 
 ## Design
 1. Front-end:
