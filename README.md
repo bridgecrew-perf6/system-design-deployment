@@ -8,7 +8,7 @@ Organize deployment tree and store it locally so the business people can visuali
 # Data example:
 ```json
 ["UninstallArtifact1,InstallArtifact2)UninstallArtifact3,InstallArtifact3))",
-"UninstallArtifact1,UninstallArtifact3)InstallArtifact4)InstallArtifact2))"]
+"UninstallArtifact1,UninstallArtifact3)InstallArtifact4)InstallArtifact2)"]
 ```
 
 ![App2](tree1.JPG)
