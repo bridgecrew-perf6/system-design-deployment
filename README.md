@@ -1,27 +1,10 @@
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
 # system-design-deployment-tree
-Organize deployment tree and store it locally so the business people can visualize it.
+Visualize the deployment steps so it can be edited and human can manually intervened.
 
 # The gist:
 - The deployment order for each app looks like a B-tree - can be serialized - https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
-- The deployment order for the whole platform is an ordered forest - think of an array/json
+- The deployment order for the whole platform is an ordered forest - think of an array
+- All of these can be stored in as an array of JSON dictionary, or serialized as below.
 
 # Data example:
 ```json
