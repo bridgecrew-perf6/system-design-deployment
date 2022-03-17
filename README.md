@@ -21,6 +21,7 @@ Visualize the deployment steps so it can be edited and human can manually interv
 # System overview
 ![System design](system.jpg)
 
+# Dataflow Diagram
 ### Deploy/Rollback Planning Flow
 ```mermaid
 sequenceDiagram
