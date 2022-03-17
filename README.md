@@ -83,10 +83,7 @@ sequenceDiagram
 		Frontend -->> User: present to user
 	end
 ```
-
-
-
 ## Improvements:
 - Convert/export to JSON option.
-- 
+- Trigger Jenkins job instead of hitting the SNOW API.
 
