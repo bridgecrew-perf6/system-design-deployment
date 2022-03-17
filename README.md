@@ -7,11 +7,14 @@ Visualize the deployment steps so it can be edited and human can manually interv
 - All of these can be stored in as an array of JSON dictionary, or serialized as below.
 
 # Data example:
+### Data structure
+![Example Datastructure and logic](datastructures.py)
+
+### Serialized Data
 ```json
 ["UninstallArtifact1,InstallArtifact2)UninstallArtifact3,InstallArtifact3))",
 "UninstallArtifact1,UninstallArtifact3)InstallArtifact4)InstallArtifact2)"]
 ```
-
 ![App2](tree1.JPG)
 ![App3](tree2.JPG)
 
@@ -84,4 +87,5 @@ sequenceDiagram
 
 ## Improvements:
 - Convert/export to JSON option.
+- 
 
