@@ -15,6 +15,9 @@ Visualize the deployment steps so it can be edited and human can manually interv
 ![App2](tree1.JPG)
 ![App3](tree2.JPG)
 
+# System overview
+![System design](system.jpg)
+
 ### Deploy/Rollback Planning Flow
 ```mermaid
 sequenceDiagram
@@ -77,7 +80,7 @@ sequenceDiagram
 	end
 ```
 
-![System design](system.jpg)
+
 
 ## Improvements:
 - Convert/export to JSON option.
