@@ -2,7 +2,7 @@
 Visualize the deployment steps so it can be edited and human can manually intervened.
 
 # The gist:
-- The deployment order for each app looks like a B-tree - can be serialized - https://www.geeksforgeeks.org/serialize-deserialize-n-ary-tree/
+- The deployment order for each app looks like a n-ary tree - can be serialized - https://www.geeksforgeeks.org/serialize-deserialize-n-ary-tree/
 - The deployment order for the whole platform is an ordered forest - think of an array
 - All of these can be stored in as an array of JSON dictionary, or serialized as below.
 
